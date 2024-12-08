@@ -20,7 +20,7 @@ dice.addEventListener("click", () => {
 
   //just display dice image
   let random = Math.floor(Math.random() * 6 + 1); //making random num 1 to 6
-  document.querySelector(".dice").src = `image/dice-${random}.png`;
+  document.querySelector(".dice").src = `images/dice-${random}.png`;
 
   // calculate points
   if (random == 1) {
